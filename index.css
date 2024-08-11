@@ -1,0 +1,56 @@
+.background{
+    background-color:rgb(239, 229, 229);
+}
+
+.heading{
+    margin-left: 300px;
+}
+
+.list{
+    color: blueviolet;
+}
+
+.container{
+    background: white;
+    height: 700px;
+    width: 900px;
+    margin-left: 180px;
+}
+
+.icon{
+    margin-left: 600px;
+    display: flex;
+    height: 80px;
+    filter: drop-shadow(5px 5px 5px  black);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    padding: 5px;
+    margin-left: 45px;
+    height: 500px;
+    width: 850px;
+    margin-top: -15px;
+
+}
+.card{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rgb(239, 229, 229);
+}
+.card:hover{
+    box-shadow: 5px 5px 15px black;
+    height: 270px;
+    width: 270px;
+    border: 2px solid rgb(4, 241, 75);
+
+}
+   
+.card h2{
+    color: blueviolet;
+
+}
